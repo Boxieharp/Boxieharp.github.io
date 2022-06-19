@@ -5,9 +5,35 @@
 </head>
 <body>
 
-<h1 style="text-align:center;"><b>ようこそ</b></h1>
-<h2 style="text-align:center;"></h2>
-<div style="text-align: center;">
-	<img src="pics/boxo.png" alt="it me" width="200" height="200">
+<style>
+
+.center-text {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-pizza {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+<div class="center-text">
+<h1>ようこそ！</b></h1>
 </div>
+
+<div class="center-pizza">
+<img src="pics/pizza.png" alt="it me" width="200" height="200">
+</div>
+
+
 </html>
