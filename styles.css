@@ -25,4 +25,5 @@ body {
 
 .center-pizza img {
   flex-shrink: 2;
+  width: 50%;
 }
