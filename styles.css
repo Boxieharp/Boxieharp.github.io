@@ -8,10 +8,11 @@
 }
 
 .center-pizza {
-  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-80%, -80%);
-  transform: translate(-80%, -80%);
+  transform: translate(-50%, -50%);
 }
