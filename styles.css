@@ -24,6 +24,5 @@ body {
 }
 
 .center-pizza img {
-  max-width: 25%;
-  height: 25%;
+  flex-shrink: 2;
 }
