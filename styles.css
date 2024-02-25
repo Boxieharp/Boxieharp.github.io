@@ -14,6 +14,15 @@ body {
   align-items: center;
 }
 
+.center-text h1 {
+  font-size: 30px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .center-pizza img {
   max-width: 50%;
   height: auto;
