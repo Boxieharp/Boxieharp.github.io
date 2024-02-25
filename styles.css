@@ -1,18 +1,21 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   height: 100vh;
   margin: 0;
+  text-align: center;
 }
 
 .center-text, .center-pizza {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
-.center-pizza {
-  flex-grow: 1;
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.center-pizza img {
+  max-width: 100%;
+  height: auto;
 }
